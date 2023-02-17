@@ -74,3 +74,10 @@
 >   > + try / catch
 >   > + throws
 
+---
+
+## what is diffrence among errors , unchecked exception and checked exception ?
+> * checked exception - ( compile time , IDE ) IOException , SQLException
+> * unchecked exception - ( runtime ) NullPointerException , ArrayIndexOutOfBoundException
+> * error - ( secere exception ) OutOfMemory 
+
