@@ -71,8 +71,8 @@
 > * Exception - Unexpected situation , can be hardled
 > * Error - Server exeception
 > * Exception Handling
->   > + try / catch
->   > + throws
+>   + try / catch
+>   + throws
 
 ---
 
@@ -81,3 +81,15 @@
 > * unchecked exception - ( runtime ) NullPointerException , ArrayIndexOutOfBoundException
 > * error - ( secere exception ) OutOfMemory 
 
+---
+
+## what is the diffrence between throw and throws in Java Exception Handling?
+> * throws
+>   + declare exception class name at method signature
+>   + single or multiple exception throws
+> * thorw
+>   + create an exception object and throw it explicitly
+>   + within method
+>   + single exception throw
+
+---
