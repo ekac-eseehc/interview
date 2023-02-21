@@ -93,3 +93,12 @@
 >   + single exception throw
 
 ---
+
+## what is the diffrence between byte stream
+> | byte stream | character stream |
+> | :--: | :--: |
+> | reading / writing of any bytes , row data | reading / writing of charcters , text |
+> | contains 8 bits | contains 16 bits unicode |
+> | InputStream / OutputStream classes | Reader / Writer classes |
+
+---
