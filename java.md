@@ -102,3 +102,12 @@
 > | InputStream / OutputStream classes | Reader / Writer classes |
 
 ---
+
+## what will happen if you call System.out on try or catch block?
+## will finally block execute?
+> * finally block is execute regardless of error condition
+> * will not execute when is meets 'System.exit()'
+> * will execute even with 'return' statement 
+
+---
+
