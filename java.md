@@ -111,3 +111,12 @@
 
 ---
 
+## what is the diffrence between ArrayList and LinkedList?
+> * Vector
+>   + sysnchronised elements , huge size increase
+> * ArrayList
+>   + better for random accessing elements by index , slow for add / remove 
+> * LinkedList
+>   + large number of add / remove operations but rarely random access of elements
+
+---
