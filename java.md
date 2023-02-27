@@ -120,3 +120,14 @@
 >   + large number of add / remove operations but rarely random access of elements
 
 ---
+
+## Explain the diffrence between Enumeration and Iterator
+> * Enumeration
+>   + a few Collection support
+>   + Snap-shot
+> * Iterator
+>   + all Collection support
+>   + Fil-fast
+>   + remove() method
+
+---
