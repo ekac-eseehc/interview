@@ -131,3 +131,10 @@
 >   + remove() method
 
 ---
+
+## what is the use of the 'SimpleDateFormat' and how can you use it to display system format?
+> * flexible date & time format
+> * using standard pattern
+> * format() & parse method
+
+---
