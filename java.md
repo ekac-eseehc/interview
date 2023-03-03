@@ -138,3 +138,11 @@
 > * format() & parse method
 
 ---
+
+## what is the marker interface in Java?
+> * No constants or methods , empty body , called as a Tag interface
+> * Can be replaced with annotation from Java 5
+>   + ex) Junit class @Test
+
+---
+
