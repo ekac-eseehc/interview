@@ -141,6 +141,7 @@
 
 ## what is the marker interface in Java?
 > * No constants or methods , empty body , called as a Tag interface
+> * Indicate special function to compiler or JVM
 > * Can be replaced with annotation from Java 5
 >   + ex) Junit class @Test
 
