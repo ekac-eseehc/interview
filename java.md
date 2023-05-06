@@ -147,3 +147,62 @@
 
 ---
 
+## Explain diffrent ways of creating thread
+> * Java supports multi thead
+> * shard resource , deadlock
+> * extends Thread
+> * implements Runnable (Referable)
+
+---
+
+## What is deadlock?
+> * Situation where multiple threads are blocked forever
+> * Ways to prevent a deadlock
+>   + Avoid having more than one lock
+>   + Avoid nested locks
+>   + Lock order
+>   + Single thread
+
+---
+
+## What if the static modifier is removed from main method?
+> * Starting point of program
+> * it doesn't work without 'static' modifier
+> * `static public` void main()
+> * public static `final` void main()
+
+---
+
+## What is the advantage of PreparedStatement over Statement?
+> * Statement is good for one time execution such as DDL statement
+> * preparedStatement executes parameterised query
+> * Faster than statement
+> * Better in security aspect
+> * CallableStatement triggers stored procedures or functions in DB
+
+---
+
+## What is basic principle of RMI architecture?
+> * method invocationin distributed environments
+> * RMI Server registers remote object by bind() to RMI Registry
+> * centralise complicated business logic at server
+> * enable thin client
+
+---
+
+## What are the steps in the JDBC connection?
+> * javaAPI to connect and execute query with databases
+> * Load Driver & Establish the connection
+> * Create a Statement & Execute a query
+> * Process the result as ResultSet
+
+---
+
+## How can we store and retrieve images from the database?
+> | Disc approach | Database approach |
+> | :--: | :--: |
+> | save images on disc | save images in database |
+> | Image size is not small | Image size is small |
+> | setString(FILE_PATH) | setBinaryStream() |
+> | much faster | slow performance |
+> | multiple datavases share | only one database uses |
